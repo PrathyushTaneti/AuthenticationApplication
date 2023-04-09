@@ -1,0 +1,16 @@
+<form class="form-sigin" #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+    <div class="container-fluid">
+        <h2 class="form-sigin-heading">Login Form</h2>
+        <div class="alert alert-danger" *ngIf="invalidLogin">
+            Invalid username or password.
+        </div>
+        <br>
+        <label for="username" class="sr-only">Email Address</label>
+        <input type="text" name="username" id="username" ngModel class="form-control" required autofocus>
+        <br>
+        <label for="password" class="sr-only">Password</label>
+        <input type="text" name="password" id="password" ngModel class="form-control" required autofocus>
+        <br>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+    </div>
+</form>

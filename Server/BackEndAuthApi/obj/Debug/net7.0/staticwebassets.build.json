@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5bKPakSx7P8E7twpdSEvEPZciDQ1xlmthuGPAFt4gTA=",
+  "Source": "BackEndAuthApi",
+  "BasePath": "_content/BackEndAuthApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
