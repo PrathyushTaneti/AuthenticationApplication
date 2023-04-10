@@ -13,7 +13,6 @@ builder.Services.AddDbContext<BackEndAuthApiContext>(options => {
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -34,7 +33,7 @@ builder.Services.AddAuthentication(options =>
 
         ValidIssuer = "https://localhost:5001",
         ValidAudience = "https://localhost:5001",
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@786"))
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("ArRahman@786"))
     };
 });
 

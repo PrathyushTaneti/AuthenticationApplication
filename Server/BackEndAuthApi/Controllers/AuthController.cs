@@ -22,7 +22,7 @@ namespace BackEndAuthApi.Controllers
             }
             if(user.UserName is "rahman" && user.Password is "admin")
             {
-                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@786"));
+                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("ArRahman@786"));
                 var signingCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
 
                 var claims = new List<Claim>() {
